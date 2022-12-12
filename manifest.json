@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Open archive.ph",
+    "description": "Shortcut to open archive.ph",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "images/icon-large.png"
+    }
+}
